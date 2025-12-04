@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - ABC Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Criar Conta - ABC Store</h1> 
+
+    <form action="login.html">
+        Nome: <input type="text" id="nome"><br><br>
+        Data de Nascimento: <input type="date" id="dataNasc"><br><br>
+        E-mail: <input type="email" id="email"><br><br>
+        Login: <input type="text" id="login"><br><br>
+        Senha: <input type="password" id="senha"><br><br>
+        <button onclick="fazercadastro()"> Cadastrar </button>
+    </form><br><br>
+
+    <a href="login.html"> Já tenho conta </a>
+    
+    <script src="funcoes.js"></script> 
+</body>
+</html>
